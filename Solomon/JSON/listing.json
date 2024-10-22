@@ -1,0 +1,662 @@
+{
+    "ref_postcode": "AL1 4RJ",
+    "ref_postcode_location": "Gurney Court Road, St.albans AL1",
+    "address": "Chalkdell Fields, St. Albans, Hertfordshire AL4",
+    "agent": {
+      "logoUri": "https://st.zoocdn.com/zoopla_static_agent_logo_(159352).png",
+      "branchId": "2948",
+      "branchName": "Frosts",
+      "phone": "01727 294786"
+    },
+    "attributes": {
+      "bedrooms": "3",
+      "bathrooms": "1",
+      "livingRooms": "1"
+    },
+    "flag": null,
+    "highlights": [],
+    "imageUris": [
+      "https://lid.zoocdn.com/645/430/b9dd8f5aedc05173271e30fe7cc7f2f89859be4d.jpg",
+      "https://lid.zoocdn.com/645/430/8b083a197d9895060efa8585d50892db5b1ac975.jpg",
+      "https://lid.zoocdn.com/645/430/dc2569150975eaf8d8748618fefb4f2badfa90e1.jpg",
+      "https://lid.zoocdn.com/645/430/e85c520c73dd1e74b6f5a8359678c730e09e32b7.jpg",
+      "https://lid.zoocdn.com/645/430/517e0f862af96ef0fd4ceae6938c639514686cd4.jpg",
+      "https://lid.zoocdn.com/645/430/c400e32c62db9f7ca3954d72498486e4ec6fbd89.jpg",
+      "https://lid.zoocdn.com/645/430/c785a201f71a4808fc4c359ec08f907c86daa8cd.jpg",
+      "https://lid.zoocdn.com/645/430/19a7b8b26f65c1f146ef28009d8ee9239538e8ad.jpg",
+      "https://lid.zoocdn.com/645/430/271b5b738e7ffadc18d4fdd93a6ccd98b00a69ce.jpg",
+      "https://lid.zoocdn.com/645/430/d70b5a65445ba3e71798e8b8d6391456daff5c8c.jpg",
+      "https://lid.zoocdn.com/645/430/9e923e818cd79a7af18bd0d66efbdf2463d74f1a.jpg",
+      "https://lid.zoocdn.com/645/430/2f9ec495fcf2b8251a8363088011673379f854b1.jpg",
+      "https://lid.zoocdn.com/645/430/ced3f53b04e319fc09917b0834fc3088ccc5dbd0.jpg",
+      "https://lid.zoocdn.com/645/430/06b3ac4db594c011efd6a94afa89858bdac29cc9.jpg",
+      "https://lid.zoocdn.com/645/430/cac941b107a83854b783d20d81a038a40f713121.jpg",
+      "https://lid.zoocdn.com/645/430/4132b941d09e264be6f6800eee3540eb89d2217c.jpg",
+      "https://lid.zoocdn.com/645/430/bfd14bf1eba2f011c7dd1356679c965e5111d7da.jpg",
+      "https://lid.zoocdn.com/645/430/9fbf3917adc60c979de50bce3352c23dd6ba103a.jpg",
+      "https://lid.zoocdn.com/645/430/e875f146ce764993800510f0cbed3c07d1d2daf9.jpg",
+      "https://lid.zoocdn.com/645/430/7adb2d4300f3a4a3ca6e77eef73850a9e623526b.jpg",
+      "https://lid.zoocdn.com/645/430/d4ab5981a8cc2461ccc5620d19ba1048ef29ffa1.jpg",
+      "https://lid.zoocdn.com/645/430/fd9169f413aefd4fa1e5038624c61528ee5646af.jpg"
+    ],
+    "isExpired": "False",
+    "isFeatured": "False",
+    "isPremium": "False",
+    "listingId": "67969218",
+    "location": {
+      "coordinates": {
+        "isApproximate": "False",
+        "latitude": "51.767341",
+        "longitude": "-0.320343",
+        "__typename": "LocationCoordinates"
+      },
+      "postalCode": "AL4 9LU",
+      "streetName": "Chalkdell Fields",
+      "countryCode": "GB",
+      "propertyNumberOrName": "83",
+      "townOrCity": "Hertfordshire",
+      "__typename": "ListingLocation",
+      "uprn": "100080844856"
+    },
+    "pricing": {
+      "isAuction": "False",
+      "qualifier": "guide_price",
+      "priceQualifierLabel": "Guide price",
+      "internalValue": "700000",
+      "rentFrequencyLabel": null,
+      "valueLabel": "£700,000",
+      "currencyCode": "GBP",
+      "originalCurrencyPrice": null,
+      "pricePerFloorAreaUnit": null,
+      "alternateRentFrequencyPrice": null,
+      "__typename": "ListingPricing",
+      "label": "£700,000"
+    },
+    "publicationStatus": "Live",
+    "tags": [
+      {
+        "label": "Freehold",
+        "__typename": "ListingTag"
+      }
+    ],
+    "title": "3 bed semi-detached house for sale",
+    "administrationFees": null,
+    "detailedDescription": "A well presented three bedroom semi detached family home found in the popular area of Marshalswick, St Albans, which is well-renowned for its outstanding schooling.&lt;br /&gt;&lt;br /&gt;<br>conveyancing&lt;br&gt;<br>Through our partners Frost's Conveyancing, we can introduce you to solicitors who specialise in conveyancing. Ask us for further information today.&lt;br&gt;<br>mortgages&lt;br&gt;<br>your home may be repossessed if you do not keep up repayments on your mortgage&lt;br&gt;<br>Exclusive deals are made available to Embrace Financial Services by primis Mortgage Network, to which Embrace Financial Services are an Appointed Representative&lt;br&gt;<br>Frosts Estate Agents is an Introducer Appointed Representative of primis Mortgage Network, a trading name of First Complete Limited which is authorised and regulated by the Financial Conduct Authority for mortgages, protection insurance and general insurance products.&lt;br&gt;<br>Embrace Financial Services Ltd. Is an Appointed Representative of primis Mortgage Network, a trading name of First Complete Ltd which is authorised and regulated by the Financial Conduct Authority.&lt;br&gt;<br>lettings and management&lt;br&gt;<br>We offer a complete range of services for Landlords, from fully managed lets to advertising only. Each Landlord who chooses full management has a personal Property Manager and all our fees are based on a ‘no let - no fee’ basis.&lt;br&gt;<br>disclaimer&lt;br&gt;<br>These particulars are a general guide only. They do not form part of any contract. Services, systems and appliances have not been tested.&lt;br&gt;<br>buyers information&lt;br&gt;<br>To conform with government Money Laundering Regulations 2019, we are required to confirm the identity of all prospective buyers. We use the services of a third party, Frost's Conveyancing, who will contact you directly at an agreed time to do this. They will need the full name, date of birth and current address of all buyers. There is a nominal charge of £60 including VAT for this (for the transaction not per person), payable direct to Frost's Conveyancing. Please note, we are unable to issue a memorandum of sale until the checks are complete.&lt;br&gt;<br>referral fees&lt;br&gt;<br>We may refer you to recommended providers of ancillary services such as Conveyancing, Financial Services, Insurance and Surveying. We may receive a commission payment fee or other benefit (known as a referral fee) for recommending their services. You are not under any obligation to use the services of the recommended provider. The ancillary service provider may be an associated company of Frosts.<br><br>FMS230402/1",
+    "metaTitle": "3 bed semi-detached house for sale in Chalkdell Fields, St. Albans, Hertfordshire AL4, £700,000 - Zoopla",
+    "metaDescription": "3 bed semi-detached house for sale in Chalkdell Fields, St. Albans, Hertfordshire AL4, selling for £700,000 from Frosts. See property details on Zoopla or browse all our range of properties in Chalkdell Fields, St. Albans, Hertfordshire AL4.",
+    "category": "residential",
+    "listingUris": {
+      "detail": "/for-sale/details/67969218/",
+      "__typename": "ListingUris",
+      "contact": "/for-sale/contact/67969218/"
+    },
+    "counts": {
+      "numBedrooms": "3",
+      "numBathrooms": "1",
+      "numLivingRooms": "1",
+      "__typename": "RoomCount"
+    },
+    "viewCount": {
+      "viewCount30day": "0",
+      "__typename": "ViewCount"
+    },
+    "ntsInfo": [
+      {
+        "title": "Tenure",
+        "value": "Freehold",
+        "__typename": "NtsInfoItem"
+      },
+      {
+        "title": "Council tax band",
+        "value": "D",
+        "__typename": "NtsInfoItem"
+      }
+    ],
+    "derivedEPC": {
+      "efficiencyRating": "D",
+      "__typename": "DerivedEPC"
+    },
+    "branch": {
+      "branchId": "2948",
+      "address": "61 The Quadrant, St. Albans",
+      "branchDetailsUri": "/find-agents/branch/frosts-st-albans-2948/",
+      "branchResultsUri": "/for-sale/branch/frosts-st-albans-2948/",
+      "logoUrl": "https://st.zoocdn.com/zoopla_static_agent_logo_(159352).png",
+      "phone": "01727 294786",
+      "name": "Frosts",
+      "postcode": "AL4 9RF",
+      "memberType": "agent",
+      "attributes": {
+        "embeddedContentIsBlacklisted": "False",
+        "showOverseasListingExactLocation": "False",
+        "__typename": "BranchAttributes"
+      },
+      "profile": {
+        "details": null,
+        "__typename": "AgentProfile"
+      },
+      "__typename": "AgentBranch"
+    },
+    "analyticsTaxonomy": {
+      "acorn": "11",
+      "acornType": "11",
+      "areaName": "St.albans",
+      "bedsMax": "3",
+      "bedsMin": "3",
+      "branchId": "2948",
+      "branchLogoUrl": "https://st.zoocdn.com/zoopla_static_agent_logo_(159352).png",
+      "branchName": "Frosts",
+      "brandName": "Frosts",
+      "chainFree": "False",
+      "companyId": "1402",
+      "countryCode": "gb",
+      "countyAreaName": "Hertfordshire",
+      "currencyCode": "GBP",
+      "displayAddress": "Chalkdell Fields, St. Albans, Hertfordshire AL4",
+      "furnishedState": "",
+      "groupId": "10",
+      "hasEpc": "True",
+      "hasFloorplan": "True",
+      "incode": "9LU",
+      "isRetirementHome": "False",
+      "isSharedOwnership": "False",
+      "listingCondition": "pre-owned",
+      "listingId": "67969218",
+      "listingsCategory": "residential",
+      "listingStatus": "for_sale",
+      "location": "St.albans",
+      "memberType": "agent",
+      "numBaths": "1",
+      "numBeds": "3",
+      "numImages": "22",
+      "numRecepts": "1",
+      "outcode": "AL4",
+      "postalArea": "AL",
+      "postTownName": "St.albans",
+      "priceActual": "700000",
+      "price": "700000",
+      "priceMax": "700000",
+      "priceMin": "700000",
+      "priceQualifier": "guide_price",
+      "propertyHighlight": "",
+      "propertyType": "semi_detached",
+      "regionName": "East of England",
+      "section": "for-sale",
+      "sizeSqFeet": "",
+      "tenure": "freehold",
+      "uuid": "7119A0BE-4D3E-4FF1-A6D6-CCA514029D38",
+      "zindex": "758739",
+      "__typename": "ListingAnalyticsTaxonomy"
+    },
+    "adTargeting": {
+      "acorn": "11",
+      "acornType": "11",
+      "areaName": "St.albans",
+      "bedsMax": "3",
+      "bedsMin": "3",
+      "branchId": "2948",
+      "branchLogoUrl": "https://st.zoocdn.com/zoopla_static_agent_logo_(159352).png",
+      "branchName": "Frosts",
+      "brandName": "Frosts",
+      "chainFree": "False",
+      "companyId": "1402",
+      "countryCode": "gb",
+      "countyAreaName": "Hertfordshire",
+      "currencyCode": "GBP",
+      "displayAddress": "Chalkdell Fields, St. Albans, Hertfordshire AL4",
+      "furnishedState": "",
+      "groupId": "10",
+      "hasEpc": "True",
+      "hasFloorplan": "True",
+      "incode": "9LU",
+      "isRetirementHome": "False",
+      "isSharedOwnership": "False",
+      "listingCondition": "pre-owned",
+      "listingId": "67969218",
+      "listingsCategory": "residential",
+      "listingStatus": "for_sale",
+      "location": "St.albans",
+      "memberType": "agent",
+      "numBaths": "1",
+      "numBeds": "3",
+      "numImages": "22",
+      "numRecepts": "1",
+      "outcode": "AL4",
+      "postalArea": "AL",
+      "postTownName": "St.albans",
+      "priceActual": "700000",
+      "price": "700000",
+      "priceMax": "700000",
+      "priceMin": "700000",
+      "priceQualifier": "guide_price",
+      "propertyHighlight": "",
+      "propertyType": "semi_detached",
+      "regionName": "East of England",
+      "section": "for-sale",
+      "sizeSqFeet": "",
+      "tenure": "freehold",
+      "uuid": "7119A0BE-4D3E-4FF1-A6D6-CCA514029D38",
+      "zindex": "758739",
+      "__typename": "ListingAnalyticsTaxonomy"
+    },
+    "analyticsEcommerce": {
+      "brand": "Frosts",
+      "category": "for-sale/resi/agent/pre-owned/gb",
+      "id": "67969218",
+      "name": "FS_Contact",
+      "price": "1",
+      "quantity": "1",
+      "variant": "standard",
+      "__typename": "ListingAnalyticsEcommerce"
+    },
+    "epc": {
+      "image": [
+        {
+          "caption": "EPC Rating Graph",
+          "filename": "75f83a0a591fea89fae0482838b34fcfa4371f45.png",
+          "__typename": "Media"
+        }
+      ],
+      "pdf": null,
+      "__typename": "EPC"
+    },
+    "features": {
+      "bullets": [
+        "Three Bedrooms",
+        "19’ Living Room &amp; Separate Dining Room",
+        "Modern Kitchen",
+        "Ground Floor Shower Room",
+        "Study",
+        "First Floor WC",
+        "South-East Facing Rear Garden",
+        "0.7 miles approx. To Sandringham Secondary School",
+        "0.5 miles approx. To Wheatfields Primary School"
+      ],
+      "flags": {
+        "furnishedState": null,
+        "studentFriendly": "False",
+        "tenure": {
+          "name": "freehold",
+          "label": "Freehold",
+          "__typename": "Label"
+        },
+        "availableFromDate": null,
+        "__typename": "FeatureFlag"
+      },
+      "highlights": null,
+      "__typename": "Features"
+    },
+    "floorPlan": {
+      "image": [
+        {
+          "filename": "e893242a980a9684d7112ae4bd61242712be2e2b.jpg",
+          "caption": "Picture No. 27",
+          "__typename": "Media"
+        }
+      ],
+      "links": null,
+      "pdf": null,
+      "__typename": "FloorPlan"
+    },
+    "floorArea": null,
+    "content": {
+      "virtualTour": null,
+      "floorPlan": [
+        {
+          "original": "https://lc.zoocdn.com/e893242a980a9684d7112ae4bd61242712be2e2b.jpg",
+          "caption": "Picture No. 27",
+          "url": null,
+          "filename": "e893242a980a9684d7112ae4bd61242712be2e2b.jpg",
+          "type": "floor_plan",
+          "__typename": "Media"
+        }
+      ],
+      "audioTour": null,
+      "__typename": "MediaContent"
+    },
+    "propertyImage": [
+      {
+        "original": "https://lc.zoocdn.com/b9dd8f5aedc05173271e30fe7cc7f2f89859be4d.jpg",
+        "caption": "Picture No. 01",
+        "url": null,
+        "filename": "b9dd8f5aedc05173271e30fe7cc7f2f89859be4d.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/8b083a197d9895060efa8585d50892db5b1ac975.jpg",
+        "caption": "Picture No. 02",
+        "url": null,
+        "filename": "8b083a197d9895060efa8585d50892db5b1ac975.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/dc2569150975eaf8d8748618fefb4f2badfa90e1.jpg",
+        "caption": "Picture No. 03",
+        "url": null,
+        "filename": "dc2569150975eaf8d8748618fefb4f2badfa90e1.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/e85c520c73dd1e74b6f5a8359678c730e09e32b7.jpg",
+        "caption": "Picture No. 04",
+        "url": null,
+        "filename": "e85c520c73dd1e74b6f5a8359678c730e09e32b7.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/517e0f862af96ef0fd4ceae6938c639514686cd4.jpg",
+        "caption": "Picture No. 05",
+        "url": null,
+        "filename": "517e0f862af96ef0fd4ceae6938c639514686cd4.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/c400e32c62db9f7ca3954d72498486e4ec6fbd89.jpg",
+        "caption": "Picture No. 06",
+        "url": null,
+        "filename": "c400e32c62db9f7ca3954d72498486e4ec6fbd89.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/c785a201f71a4808fc4c359ec08f907c86daa8cd.jpg",
+        "caption": "Picture No. 07",
+        "url": null,
+        "filename": "c785a201f71a4808fc4c359ec08f907c86daa8cd.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/19a7b8b26f65c1f146ef28009d8ee9239538e8ad.jpg",
+        "caption": "Picture No. 08",
+        "url": null,
+        "filename": "19a7b8b26f65c1f146ef28009d8ee9239538e8ad.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/271b5b738e7ffadc18d4fdd93a6ccd98b00a69ce.jpg",
+        "caption": "Picture No. 09",
+        "url": null,
+        "filename": "271b5b738e7ffadc18d4fdd93a6ccd98b00a69ce.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/d70b5a65445ba3e71798e8b8d6391456daff5c8c.jpg",
+        "caption": "Picture No. 10",
+        "url": null,
+        "filename": "d70b5a65445ba3e71798e8b8d6391456daff5c8c.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/9e923e818cd79a7af18bd0d66efbdf2463d74f1a.jpg",
+        "caption": "Picture No. 11",
+        "url": null,
+        "filename": "9e923e818cd79a7af18bd0d66efbdf2463d74f1a.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/2f9ec495fcf2b8251a8363088011673379f854b1.jpg",
+        "caption": "Picture No. 12",
+        "url": null,
+        "filename": "2f9ec495fcf2b8251a8363088011673379f854b1.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/ced3f53b04e319fc09917b0834fc3088ccc5dbd0.jpg",
+        "caption": "Picture No. 13",
+        "url": null,
+        "filename": "ced3f53b04e319fc09917b0834fc3088ccc5dbd0.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/06b3ac4db594c011efd6a94afa89858bdac29cc9.jpg",
+        "caption": "Picture No. 14",
+        "url": null,
+        "filename": "06b3ac4db594c011efd6a94afa89858bdac29cc9.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/cac941b107a83854b783d20d81a038a40f713121.jpg",
+        "caption": "Picture No. 15",
+        "url": null,
+        "filename": "cac941b107a83854b783d20d81a038a40f713121.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/4132b941d09e264be6f6800eee3540eb89d2217c.jpg",
+        "caption": "Picture No. 16",
+        "url": null,
+        "filename": "4132b941d09e264be6f6800eee3540eb89d2217c.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/bfd14bf1eba2f011c7dd1356679c965e5111d7da.jpg",
+        "caption": "Picture No. 17",
+        "url": null,
+        "filename": "bfd14bf1eba2f011c7dd1356679c965e5111d7da.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/9fbf3917adc60c979de50bce3352c23dd6ba103a.jpg",
+        "caption": "Picture No. 18",
+        "url": null,
+        "filename": "9fbf3917adc60c979de50bce3352c23dd6ba103a.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/e875f146ce764993800510f0cbed3c07d1d2daf9.jpg",
+        "caption": "Picture No. 19",
+        "url": null,
+        "filename": "e875f146ce764993800510f0cbed3c07d1d2daf9.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/7adb2d4300f3a4a3ca6e77eef73850a9e623526b.jpg",
+        "caption": "Picture No. 20",
+        "url": null,
+        "filename": "7adb2d4300f3a4a3ca6e77eef73850a9e623526b.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/d4ab5981a8cc2461ccc5620d19ba1048ef29ffa1.jpg",
+        "caption": "Picture No. 21",
+        "url": null,
+        "filename": "d4ab5981a8cc2461ccc5620d19ba1048ef29ffa1.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://lc.zoocdn.com/fd9169f413aefd4fa1e5038624c61528ee5646af.jpg",
+        "caption": "Picture No. 22",
+        "url": null,
+        "filename": "fd9169f413aefd4fa1e5038624c61528ee5646af.jpg",
+        "type": "property_image",
+        "__typename": "Media"
+      }
+    ],
+    "additionalLinks": [
+      {
+        "original": "https://www.frosts.co.uk/property/FMS230402",
+        "caption": "Web Details",
+        "url": null,
+        "filename": null,
+        "type": "brochure",
+        "__typename": "Media"
+      },
+      {
+        "original": "https://assets.reapit.net/lsi/live/pdf.php?p=FMS230402&t=S",
+        "caption": "Full Brochure PDF",
+        "url": null,
+        "filename": null,
+        "type": "brochure",
+        "__typename": "Media"
+      }
+    ],
+    "embeddedContent": {
+      "videos": null,
+      "tours": null,
+      "links": null,
+      "__typename": "EmbeddedContent"
+    },
+    "pointsOfInterest": [
+      {
+        "title": "Bernards Heath Junior School",
+        "address": "Watson Avenue",
+        "type": "uk_school_primary",
+        "latitude": "51.764369",
+        "longitude": "-0.327271",
+        "distanceMiles": "0.4",
+        "__typename": "PointOfInterest"
+      },
+      {
+        "title": "Wheatfields Infants' and Nursery School",
+        "address": "Downes Road",
+        "type": "uk_school_primary",
+        "latitude": "51.770285",
+        "longitude": "-0.311486",
+        "distanceMiles": "0.4",
+        "__typename": "PointOfInterest"
+      },
+      {
+        "title": "St Albans City",
+        "address": null,
+        "type": "national_rail_station",
+        "latitude": "51.75048",
+        "longitude": "-0.32754",
+        "distanceMiles": "1.2",
+        "__typename": "PointOfInterest"
+      },
+      {
+        "title": "St Albans Abbey",
+        "address": null,
+        "type": "national_rail_station",
+        "latitude": "51.744736",
+        "longitude": "-0.342569",
+        "distanceMiles": "1.8",
+        "__typename": "PointOfInterest"
+      }
+    ],
+    "priceHistory": {
+      "firstPublished": {
+        "firstPublishedDate": "2024-07-31T17:22:40",
+        "priceLabel": "£700,000",
+        "__typename": "PriceHistoryFirstPublished"
+      },
+      "lastSale": null,
+      "priceChanges": null,
+      "__typename": "PriceHistory"
+    },
+    "displayAddress": "Chalkdell Fields, St. Albans, Hertfordshire AL4",
+    "section": "for-sale",
+    "featurePreview": [
+      {
+        "iconId": "bed",
+        "content": "3",
+        "__typename": "Feature"
+      },
+      {
+        "iconId": "bath",
+        "content": "1",
+        "__typename": "Feature"
+      },
+      {
+        "iconId": "chair",
+        "content": "1",
+        "__typename": "Feature"
+      }
+    ],
+    "imagePreview": {
+      "caption": "Picture No. 01",
+      "src": "https://lid.zoocdn.com/645/430/b9dd8f5aedc05173271e30fe7cc7f2f89859be4d.jpg",
+      "__typename": "Image"
+    },
+    "transports": [
+      {
+        "distanceInMiles": "3",
+        "poiType": "national_rail_station",
+        "title": "Park Street",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "3.6",
+        "poiType": "national_rail_station",
+        "title": "Harpenden",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "3.6",
+        "poiType": "national_rail_station",
+        "title": "How Wood (Hertfordshire)",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "4.5",
+        "poiType": "national_rail_station",
+        "title": "Hatfield (Herts)",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "4.6",
+        "poiType": "national_rail_station",
+        "title": "Bricket Wood",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "5.2",
+        "poiType": "national_rail_station",
+        "title": "Welham Green",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "5.5",
+        "poiType": "national_rail_station",
+        "title": "Welwyn Garden City",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "5.7",
+        "poiType": "national_rail_station",
+        "title": "Radlett",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "19.5",
+        "poiType": "uk_ferry_port",
+        "title": "Kew Pier",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "19.8",
+        "poiType": "uk_ferry_port",
+        "title": "Savoy Pier",
+        "__typename": "Transport"
+      },
+      {
+        "distanceInMiles": "19.9",
+        "poiType": "uk_ferry_port",
+        "title": "Embankment Pier",
+        "__typename": "Transport"
+      }
+    ],
+    "publishedOn": "2024-07-31T17:22:40",
+    "numberOfImages": "22",
+    "statusSummary": null
+  }

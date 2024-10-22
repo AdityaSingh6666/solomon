@@ -1,0 +1,146 @@
+outcode
+district_code
+region
+county_name
+local_authority
+District_name
+ward_name
+most_current_pop_year
+population
+pop_dens_sq_km
+Average Income
+Median Income
+Per Capita Income
+race_ethnicity_total
+race_ethnicity_white
+race_ethnicity_black
+race_ethnicity_asian
+race_ethnicity_other
+race_ethnicity_two_or_more
+Sex: All persons; measures: Value
+Sex: Female; measures: Value
+Sex: Male; measures: Value
+Age: Aged 4 years and under
+Age: Aged 5 to 9 years
+Age: Aged 10 to 14 years
+Age: Aged 15 to 19 years
+Age: Aged 20 to 24 years
+Age: Aged 25 to 29 years
+Age: Aged 30 to 34 years
+Age: Aged 35 to 39 years
+Age: Aged 40 to 44 years
+Age: Aged 45 to 49 years
+Age: Aged 50 to 54 years
+Age: Aged 55 to 59 years
+Age: Aged 60 to 64 years
+Age: Aged 65 to 69 years
+Age: Aged 70 to 74 years
+Age: Aged 75 to 79 years
+Age: Aged 80 to 84 years
+Age: Aged 85 years and over
+median_age
+edu_att_pop_16_plus
+edu_att_no_diploma
+edu_att_high_school
+edu_att_some_college
+edu_att_bachelors
+edu_att_graduate
+poverty_pct
+In_Employment
+Unemployed
+Unemployment_pct
+Retired
+Crime Rate
+housing_units
+owns_outright
+own_with_mortgage
+shared_ownership
+social_rent
+private_rent
+rent_free
+Total households
+One Person household
+Single family Household
+Other household type
+Detached
+Semi-Detached
+Terraced
+Flat
+1 person
+2 people
+3 people
+4 people
+5 person plus
+Managers
+Professionals
+Assosiates
+Administrative
+Skilled Trades
+Caring and Leisure
+Sales and customer Service
+Process Plant & Machine
+Elementry
+Very Good Health
+Good Health
+Fair Health
+Bad Health
+Very Bad Health
+Single
+Married
+Seperated
+Divorced
+Widowed
+Christian
+Buddhist
+Hindu
+Muslim
+Others
+None
+2011
+2021
+2030
+2050
+Change 2000-2010 (%)
+Change 2010-2020 (%)
+Change 2020-2030 (%)
+avg_asking_price_x
+avg_asking_price_1bed
+avg_asking_price_2beds
+avg_asking_price_3beds
+avg_asking_price_4beds
+avg_asking_price_5beds
+days_on_market
+Sale/List Ratio
+Avg Listing per sqft
+Avg Listing sqft v/s Size(Small)
+Avg Listing sqft v/s Size(Medium)_x
+Avg Listing sqft v/s Size(Large)_x
+Avg sold price
+Avg sold price (Detached)
+Avg sold price (Semi-detached)
+Avg sold price (Terraced)
+Avg sold price (Flat)
+Avg Sold per sqft
+Avg sold per sqft.(New)
+Avg sold per sqft.(Old)
+Avg Sold sqft v/s Size(Small)
+Avg Sold sqft v/s Size(Medium)_y
+Avg Sold sqft v/s Size(Large)_y
+Sales per month
+Avg asking rent(p/m)_x
+Avg asking rent(1 bed)
+Avg asking rent(2 beds)
+Avg asking rent(3 beds)
+Avg asking rent(4 beds)
+Avg asking rent(5 beds)
+avg_gross_yield_x
+base_year
+1_yr_growth
+3_yr_growth
+5_yr_growth
+10_yr_growth
+total_applications
+successful_applications
+success_rate
+Price to Income
+Rent to Income

@@ -1,0 +1,126 @@
+Title: Occupancy rating for rooms
+Description: This dataset provides Census 2021 estimates that classify households in England and Wales by occupancy rating based on the number of rooms in the household. The estimates are as at Census Day, 21 March 2021.
+Issued: 2023-01-06T00:00:00.000Z
+Next Release: 
+Identifier: Occupancy rating for rooms
+Keywords: [ltla occupancy_rating_rooms_6a]
+Language: English
+Contact: Michael Roskams, census.customerservices@ons.gov.uk, +44 1329 444972
+Latest Changes: []
+Periodicity: 
+Distribution:
+	Extension: csv
+	Size: 116948
+	URL: https://download.ons.gov.uk/downloads/datasets/TS053/editions/2021/versions/2.csv
+
+	Extension: csvw
+	Size: 4477
+	URL: https://download.ons.gov.uk/downloads/datasets/TS053/editions/2021/versions/2.csv-metadata.json
+
+	Extension: xls
+	Size: 54343
+	URL: https://download.ons.gov.uk/downloads/datasets/TS053/editions/2021/versions/2.xlsx
+
+	Extension: txt
+	Size: 5816
+	URL: https://download.ons.gov.uk/downloads/datasets/TS053/editions/2021/versions/2.txt
+
+Unit of measure: Household
+License: 
+Canonical Topic: 
+Survey: 
+Usage Notes:
+Version: 2
+
+Area Type
+
+Census 2021 statistics are published for a number of different geographies.
+These can be large, for example the whole of England, or small, for example
+an output area (OA), the lowest level of geography for which statistics are
+produced.
+
+For higher levels of geography, more detailed statistics can be produced.
+When a lower level of geography is used, such as output areas (which have
+a minimum of 100 persons), the statistics produced have less detail. This is
+to protect the confidentiality of people and ensure that individuals or their
+characteristics cannot be identified.
+
+
+Coverage
+
+Census 2021 statistics are published for the whole of England and Wales.
+However, you can choose to filter areas by:
+
+- country - for example, Wales
+- region - for example, London
+- local authority - for example, Cornwall
+- health area – for example, Clinical Commissioning Group
+- statistical area - for example, MSOA or LSOA
+
+
+Protecting personal data
+
+Sometimes we need to make changes to data if it is possible to identify
+individuals. This is known as statistical disclosure control.
+
+In Census 2021, we:
+- swapped records (targeted record swapping), for example, if a household 
+  was likely to be identified in datasets because it has unusual
+  characteristics, we swapped the record with a similar one from a nearby
+  small area (very unusual households could be swapped with one in a nearby
+  local authority)
+- added small changes to some counts (cell key perturbation), for example,
+  we might change a count of four to a three or a five – this might make
+  small differences between tables depending on how the data are broken down
+  when we applied perturbation
+
+Read more in Section 5 of our article Design for Census 2021.
+
+Dimensions:
+
+	ID: ltla
+
+	Label: Lower Tier Local Authorities
+
+	Description: Lower tier local authorities provide a range of local services. In England there are 309 lower tier local authorities. These are made up of non-metropolitan districts (181), unitary authorities (59), metropolitan districts (36) and London boroughs (33, including City of London). In Wales there are 22 local authorities made up of 22 unitary authorities. Of these local authority types, only non-metropolitan districts are not additionally classified as upper tier local authorities.
+
+	Number Of Options: 331
+
+	Quality Statement: 
+
+
+	ID: occupancy_rating_rooms_6a
+
+	Label: Occupancy rating for rooms (6 categories)
+
+	Description: Whether a household's accommodation is overcrowded, ideally occupied or under-occupied. This is calculated by comparing the number of rooms the household requires to the number of available rooms.
+
+The number of rooms the household requires uses a formula which states that:
+
+* one-person households require three rooms comprised of two common rooms and one bedroom
+* two-or-more person households require a minimum of two common rooms and a bedroom for each person inline with the Bedroom Standard
+
+People who should have their own room according to the Bedroom Standard are:
+
+1. married or cohabiting couple
+2. single parent
+3. person aged 16 years and over
+4. pair of same-sex persons aged 10 to 15 years
+5. person aged 10 to 15 years paired with a person under 10 years of the same sex
+6. pair of children aged under 10 years, regardless of their sex
+7. person aged under 16 years who cannot share a bedroom with someone in 4, 5 or 6 above
+
+An occupancy rating of:
+
+* -1 or less implies that a household’s accommodation has fewer rooms than required (overcrowded)
+* +1 or more implies that a household’s accommodation has more rooms than required (under-occupied)
+* 0 suggests that a household’s accommodation has an ideal number of rooms
+
+The number of rooms is taken from Valuation Office Agency (VOA) administrative data for the first time in 2021. The number of rooms is recorded at the address level, whilst the 2011 Census recorded the number of rooms at the household level.  This means that for households that live in a shared dwelling, the available number of rooms are counted for the whole dwelling in VOA, and not each individual household. 
+
+VOA’s definition of a room does not include bathrooms, toilets, halls or landings, kitchens, conservatories or utility rooms. All other rooms, for example, living rooms, studies, bedrooms, separate dining rooms and rooms that can only be used for storage are included. Please note that the 2011 Census question included kitchens, conservatories and utility rooms while excluding rooms that can only be used for storage. To adjust for the definitional difference, the number of rooms required is deducted from the actual number of rooms it has available, and then 1 is added.
+
+	Number Of Options: 6
+
+	Quality Statement: It is inappropriate to measure change in number of rooms from 2011 to 2021, as Census 2021 used Valuation Office Agency data for this variable. Instead use Census 2021 estimates for number of bedrooms for comparisons over time.
+https://www.ons.gov.uk/peoplepopulationandcommunity/housing/methodologies/housingqualityinformationforcensus2021
