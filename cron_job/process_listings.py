@@ -28,6 +28,7 @@ def process_property_listings(postcode):
                 f.write(f"{postcode} - 0\n")
         else:
             def process_single_listing(listing):
+                # print(f"Processing {postcode}...")
                 listing_id = listing.get('listingId')
                 new_listing_ids.add(listing_id) 
                 if listing_id not in existing_listing_ids:                    
@@ -49,7 +50,7 @@ def process_property_listings(postcode):
                             f.write(f"{listing_id} - {postcode} - NO DETAILS\n")
                         listing_dict_to_be_pushed = convert_values_to_string(listing_dict_to_be_pushed)
                     
-                    add_to_bulk('listings', listing_dict_to_be_pushed)
+                    add_to_bulk('listings_main', listing_dict_to_be_pushed)
 
             with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
                 futures = [executor.submit(process_single_listing, listing) for listing in listings]
@@ -59,23 +60,72 @@ def process_property_listings(postcode):
             with open(POSTCODE_SUCCESS_TXT, 'a') as f:
                 f.write(f"{postcode} - {len(listings)}\n")   
 
+            # print("Processing sold listing ids...")
+
             sold_listing_ids = existing_listing_ids - new_listing_ids
-            for sold_id in sold_listing_ids:
-                sold_listing_dict = {
-                    'listingId': sold_id,
-                    'ref_postcode': postcode,
-                    'soldStatus': 'Yes'
-                }
-                add_to_bulk('listings', sold_listing_dict)
+            # print(f"Found {len(sold_listing_ids)} sold listings")
 
-            with open("listings_old.txt", 'r') as f:
-                all_listing_ids = f.readlines()
-            with open("listings_old.txt", 'w') as f:
-                f.writelines(line for line in all_listing_ids if line.strip() not in sold_listing_ids)
+            BATCH_SIZE = 100
+            sold_list = list(sold_listing_ids)
+            
+            for i in range(0, len(sold_list), BATCH_SIZE):
+                
+                batch = sold_list[i:i + BATCH_SIZE]
+                # print(f"Processing batch of {len(batch)} sold listings ({i + 1} to {i + len(batch)} of {len(sold_list)})")
+                
+                for sold_id in batch:
+                    try:
+                        sold_listing_dict = {
+                            'listingId': sold_id,
+                            'ref_postcode': postcode,
+                            'soldStatus': 'Yes'
+                        }
+                        # print(f"Adding sold listing {sold_id} to bulk...")
+                        add_to_bulk('listings_main', sold_listing_dict)
+                        # print(f"Successfully added sold listing {sold_id}")
+                    except Exception as e:
+                        # print(f"Error processing sold listing {sold_id}: {str(e)}")
+                        logger.error(f"Error processing sold listing {sold_id}: {str(e)}")
+                        # Continue processing other listings even if one fails
+                        continue
 
-            existing_listing_ids.update(new_listing_ids)
-            with open("listings_old.txt", 'w') as f:
-                f.writelines(f"{listing_id}\n" for listing_id in existing_listing_ids)
+            # print("Completed processing all sold listings")
+
+            if not os.path.exists("listings_old.txt"):
+                # print("listings_old.txt doesn't exist. Creating new file...")
+                open("listings_old.txt", 'a').close()
+
+            # print("About to open listings_old.txt...")
+            try:
+                with open("listings_old.txt", 'r') as f:
+                    existing_lines = f.readlines()
+                
+                print(f"Read {len(existing_lines)} existing listings")
+                
+                # Filter out sold listings and write back
+                updated_lines = []
+                for line in existing_lines:
+                    listing_id = line.strip()
+                    if listing_id not in sold_listing_ids:
+                        updated_lines.append(line)
+                        # print(f"Keeping active listing: {listing_id}")
+                
+                # Write the filtered listings back
+                # print(f"Writing {len(updated_lines)} active listings back to file...")
+                with open("listings_old.txt", 'w') as f:
+                    f.writelines(updated_lines)
+                # print(f"Successfully wrote {len(updated_lines)} listings to file")
+
+                # Add new listings to the file
+                # print("Adding new listings to file...")
+                with open("listings_old.txt", 'a') as f:
+                    for listing_id in new_listing_ids:
+                        f.write(f"{listing_id}\n")
+                # print(f"Added {len(new_listing_ids)} new listings to file")
+
+            except IOError as e:
+                logger.error(f"Error handling listings file: {e}")
+                raise
 
     except Exception as e:
         logger.error(f"Failed to process listings for {postcode}: {e}")
